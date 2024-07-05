@@ -6,6 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
+  name: "NodeJS Test"
   build:
     name: "NodeJS Test"
     runs-on: ubuntu-latest
